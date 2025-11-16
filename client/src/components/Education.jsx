@@ -3,7 +3,7 @@ import React from "react";
 // Replace these with actual logos URLs or import local images
 import XYZLogo from "../assets/university.jpg";
 import ABCLogo from "../assets/ymn.jpg";
-import DEFLogo from "../assets/shivajiSChool.jpg";
+import DEFLogo from "../assets/shivajiSchool.jpg";
 
 const educationData = [
   {
