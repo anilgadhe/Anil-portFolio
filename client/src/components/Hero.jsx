@@ -1,5 +1,6 @@
 import React from "react";
 import pic from "../assets/passport.jpg"
+import resume from "../assets/Anil_gade.pdf"
 import { motion } from "framer-motion";
 
 
@@ -31,7 +32,7 @@ export default function Hero() {
           <a href="#projects" className="inline-block px-8 py-3 rounded-full bg-blue-500 hover:bg-blue-600 font-medium">
             View Projects
           </a>
-          <a href="../assests/Anil_gade.pdf" className="ml-4 inline-block px-6 py-3 rounded-lg border dark:border-white border-gray-400  hover:bg-white/4">
+          <a href={resume} download className="ml-4 inline-block px-6 py-3 rounded-lg border dark:border-white border-gray-400  hover:bg-white/4">
             Download CV
           </a>
         </div>
