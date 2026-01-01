@@ -14,8 +14,7 @@ export default function Contact() {
     setLoading(true);
 
     axios
-      // .post("https://portfolio-0a84.onrender.com/register", {
-      .post("portfolio-production-ae74.up.railway.app/register", {
+      .post("https://portfolio-production-ae74.up.railway.app/register", {
         userName,
         email,
         message: msg, // FIXED
